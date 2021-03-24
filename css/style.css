@@ -133,3 +133,10 @@ p + a {
   align-items: center;
   text-align: center;
 }
+#more-repos {
+  position: absolute;
+  top: 60vh;
+  left: 30vw;
+  transform: scale(1);
+  color: white;
+}
