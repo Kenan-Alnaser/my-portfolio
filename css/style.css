@@ -17,6 +17,7 @@ body {
 a {
   text-decoration: none;
   color: black;
+  font-weight: bolder;
 }
 .head {
   display: flex;
@@ -30,4 +31,25 @@ li {
 }
 li {
   margin-right: 7vw;
+}
+.side {
+  display: flex;
+  position: fixed;
+}
+.fab {
+  margin-bottom: 10vh;
+  margin-left: 2vw;
+  transform: scale(2);
+}
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.main > h1,
+.main > p {
+  color: white;
+  transform: scale(2);
 }
