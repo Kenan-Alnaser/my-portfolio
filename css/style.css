@@ -86,6 +86,6 @@ p > .fab {
     transform: scale(1);
   }
   to {
-    left: 4vw;
+    left: 30vw;
   }
 }

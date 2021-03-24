@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../fontofawesome/css/all.css" />
+    <title>My videos</title>
+  </head>
+  <body>
+    <span class="head menu">
+      <div class="x-menu">
+        <div class="line x-1"></div>
+        <div class="line x-2"></div>
+        <div class="line x-3"></div>
+      </div>
+      <ul>
+        <li><a href="../index.html"> Home</a></li>
+        <li><a href="./projects.html"> Projects</a></li>
+        <li><a href="./videos.html"> Videos</a></li>
+        <li><a href="./contact.html"> Contact</a></li>
+      </ul>
+    </span>
+    <div class="side menu">
+      <ul>
+        <li>
+          <a href="#"> <i class="fab fa-github"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+      </ul>
+    </div>
+    <script>
+      let clicked = false;
+      document.querySelector(".x-menu").addEventListener("click", () => {
+        clicked = !clicked;
+        if (clicked) {
+          document.querySelector("ul").style.cssText = "display:inline ;";
+          document.querySelector(".x-1").style.cssText =
+            "  transform: rotate(-1.15turn); transition: 1s ease; position: absolute;";
+          document.querySelector(".x-2").style.cssText =
+            "  position: absolute; animation-name: move-right; animation-iteration-count: 1; animation-duration: 1.5s; transform: scale(0);";
+          document.querySelector(".x-3").style.cssText =
+            "  transform: rotate(1.15turn); transition: 1s ease; position: absolute;";
+        } else {
+          document.querySelector("ul").style.cssText = "display: none;";
+          document.querySelector(".x-1").style.cssText = " ";
+          document.querySelector(".x-2").style.cssText =
+            "  position: absolute; transform: scale(1);";
+          document.querySelector(".x-3").style.cssText = " ";
+        }
+      });
+    </script>
+  </body>
+</html>
