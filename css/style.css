@@ -46,10 +46,14 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 90vh;
+  flex-wrap: wrap;
 }
 .main > h1,
 .main > p {
   color: white;
   transform: scale(2);
+}
+p > .fab {
+  margin: 3vh 2vw 2vh 0;
 }
