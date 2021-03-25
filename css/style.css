@@ -123,6 +123,7 @@ div > h1 {
   width: 91vw;
   height: 90vh;
   background-image: url(../img/voransirt.gif);
+  background-size: cover;
 }
 p {
   color: white;
