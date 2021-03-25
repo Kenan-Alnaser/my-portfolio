@@ -120,6 +120,8 @@ div > h1 {
 .videos {
   position: absolute;
   left: 10rem;
+  width: 91vw;
+  height: 90vh;
 }
 p {
   color: white;
@@ -135,6 +137,7 @@ p + a {
   text-align: center;
   position: absolute;
   right: 22vw;
+  align-self: center;
 }
 #more-repos {
   position: absolute;
@@ -154,4 +157,7 @@ p + a {
 .contact-info > p,
 .contact-info > a {
   font-size: 2rem;
+}
+iframe {
+  width: 27vw;
 }
