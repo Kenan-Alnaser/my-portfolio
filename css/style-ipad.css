@@ -1,0 +1,15 @@
+.info {
+  width: 15rem;
+}
+ul,
+li {
+  font-size: 1.5rem;
+}
+.videos {
+  left: 5rem;
+}
+.contact {
+  left: 5rem;
+  overflow: scroll;
+  width: 90vw;
+}
